@@ -118,6 +118,6 @@ token, err := jwt.ParseWithClaims(
   - If signature verification fails or token is malformed, returns an error.
   - Validates standard claims (e.g., expiration).
 
-## I have explained with some visuals [HERE](https://dev.to/shjung-dev/token-validation-57id) so feel free to check it out
+## I have explained a little more detailed [HERE](https://dev.to/shjung-dev/token-validation-57id) so feel free to check it out
 
 
