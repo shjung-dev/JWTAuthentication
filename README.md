@@ -73,7 +73,7 @@ This project showcases my understanding of implementing JWT-based authentication
 <br><br>
 <br><br>
 
-# Refer to the homepage.tsx file in the frontend folder to understand the flow of API calls from the frontend
+# Refer to the homepage.tsx file in frontend/app/home/components/homepage.tsx to understand the flow of API calls from the frontend
 ## When the access token expires, the frontend should automatically call the /refresh endpoint to obtain a new access token using the refresh token.
 ## Case 1: Both Access and Refresh Token are expired
 The refresh token is now set to expire after 5 seconds as well. When the /refresh endpoint is called, the server verifies that the refresh token is valid and not expired. If it has expired, the user is automatically redirected to the login page
